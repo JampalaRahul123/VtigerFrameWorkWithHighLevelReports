@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="SeleniumCRMGUIFrameworkUsingMavenWithHighLevelReports.generic.ListenerUtility.ListImpClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="practice.testng.baseclass.listener.extentreport.highlevellogs.orgtest.CreateOrganizationTest">
+        <methods>
+          <include name="createOrganizationWithIndustriesTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="createOrganizationWithPhoneNumberTest"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- practice.testng.baseclass.listener.extentreport.highlevellogs.orgtest.CreateOrganizationTest -->
+      <class name="practice.testng.baseclass.listener.extentreport.highlevellogs.contacttest.CreateContactTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="createContactWithOrgTest"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- practice.testng.baseclass.listener.extentreport.highlevellogs.contacttest.CreateContactTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
